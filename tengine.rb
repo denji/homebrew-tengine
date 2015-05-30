@@ -2,8 +2,8 @@ require 'formula'
 
 class Tengine < Formula
   homepage "http://tengine.taobao.org"
-  url "http://tengine.taobao.org/download/tengine-2.0.3.tar.gz"
-  sha1 "8b0b8f12d38685f4ee5fe7fd6517149bd1be4a81"
+  url "http://tengine.taobao.org/download/tengine-2.1.0.tar.gz"
+  sha256 "6d98e217deb6676438f0704eb51736239e390624479fedb8c59ebf7a8a30e7b3"
   head "https://github.com/alibaba/tengine.git"
 
   def self.core_modules
