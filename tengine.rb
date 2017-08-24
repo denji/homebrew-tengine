@@ -10,6 +10,7 @@ class Tengine < Formula
       ["passenger",        nil,                        "Compile with support for Phusion Passenger module"],
       ["webdav",           "http_dav_module",          "Compile with support for WebDAV module"],
       ["spdy",             "http_spdy_module",         "Compile with support for SPDY module"],
+      ["http2",            "http_v2_module",           "Compile with support for HTTP2 module"],
       ["gunzip",           "http_gunzip_module",       "Compile with support for gunzip module"],
       ["secure-link",      "http_secure_link_module",  "Compile with support for secure link module"],
       ["mp4",              "http_mp4_module",          "Compile with support for mp4 module"],
