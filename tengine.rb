@@ -159,7 +159,7 @@ class Tengine < Formula
     system "#{bin}/nginx", "-t"
   end
 
-  def passenger_caveats; <<-EOS.undent
+  def passenger_caveats; <<~EOS
 
     To activate Phusion Passenger, add this to #{etc}/tengine/nginx.conf, inside the 'http' context:
       passenger_root #{HOMEBREW_PREFIX}/opt/passenger/libexec/lib/phusion_passenger/locations.ini;
@@ -168,7 +168,7 @@ class Tengine < Formula
   end
 
   def caveats
-    s = <<-EOS.undent
+    s = <<~EOS
     Docroot is: #{HOMEBREW_PREFIX}/var/www
 
     The default port has been set in #{HOMEBREW_PREFIX}/etc/tengine/nginx.conf to 8080 so that
@@ -191,7 +191,7 @@ class Tengine < Formula
     s
   end
 
-  def plist; <<-EOS.undent
+  def plist; <<~EOS
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
     <plist version="1.0">
