@@ -43,8 +43,8 @@ class Tengine < Formula
   depends_on "pcre"
   depends_on "gd" if build.with? "image-filter"
 
-  conflicts_with 'nginx', 'denji/nginx-full',
-    :because => "nginx, denji/nginx install the same binaries."
+  conflicts_with 'nginx', 'denji/nginx/nginx-full',
+    :because => "nginx, denji/nginx/nginx-full install the same binaries."
 
   self.core_modules.each do |arr|
     option "with-#{arr[0]}", arr[2]
