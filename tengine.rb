@@ -1,7 +1,7 @@
 class Tengine < Formula
   homepage "http://tengine.taobao.org"
-  url "https://tengine.taobao.org/download/tengine-2.3.0.tar.gz"
-  sha256 "17cf1380d4faefb70707970437b3f8b66f6ff4530b5e6e61970b35f59b2e2624"
+  url "https://tengine.taobao.org/download/tengine-2.3.3.tar.gz"
+  sha256 "adf19c9c9ae6bb1efb681e28f6d4ce50dd6a163ecfd33ddf2c05c4c1add9ff45"
   head "https://github.com/alibaba/tengine.git"
 
   def self.core_modules
