@@ -174,8 +174,8 @@ class Tengine < Formula
 
     - Tips -
     Run port 80:
-     $ sudo chown root:wheel #{sbin}/nginx
-     $ sudo chmod u+s #{sbin}/nginx
+     $ sudo chown root:wheel #{bin}/nginx
+     $ sudo chmod u+s #{bin}/nginx
     Reload config:
      $ nginx -s reload
     Reopen Logfile:
