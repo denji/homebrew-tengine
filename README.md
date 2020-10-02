@@ -1,6 +1,6 @@
 # Tengine Homebrew Tap
 
-[Tengine](https://github.com/alibaba/tengine) has full compatibility with nginx-1.4.x, but it also has support for Dynamic Module Loading Support (DSO) compile it using [dso_tools](http://tengine.taobao.org/document/dso.html).  
+[Tengine](https://github.com/alibaba/tengine) has full compatibility with nginx-1.4.x, but it also has support for Dynamic Module Loading Support (DSO) to compile it using [dso_tools](http://tengine.taobao.org/document/dso.html).  
 
 Default tengine is limited to 256 loadable shared modules.
 
