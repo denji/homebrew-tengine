@@ -1,12 +1,13 @@
 class Tengine < Formula
   homepage "http://tengine.taobao.org"
-  url "https://tengine.taobao.org/download/tengine-2.3.2.tar.gz"
-  sha256 "a65998a35739a59f8a16ec4c6090a59e569ba5a1a3f68fecad952057c1a18fea"
+  url "https://tengine.taobao.org/download/tengine-2.4.0.tar.gz"
+  sha256 "53ab713136e33e595fa1cb1358f56c2226255a12c7eebb6126d05ea16a3946f9"
   head "https://github.com/alibaba/tengine.git"
 
   def self.core_modules
     [
       ["jemalloc",         nil,                        "Optimization of jemalloc memory management"],
+      ["openssl-async",    nil,                        "enable asynchronous SSL/TLS mode for OpenSSL library"],
       ["passenger",        nil,                        "Compile with support for Phusion Passenger module"],
       ["webdav",           "http_dav_module",          "Compile with support for WebDAV module"],
       ["http2",            "http_v2_module",           "Compile with support for HTTP2 module"],
